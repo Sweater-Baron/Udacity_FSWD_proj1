@@ -2,6 +2,12 @@ import fresh_tomatoes
 
 class Movie(object):
     def __init__(self, title, trailer_url, poster_url):
+        """
+        Args:
+            title: The movie's title
+            trailer_url: Youtube url of the movie's trailer, as a string
+            poster_url: A url of a poster for the movie, as a string
+        """
         self.title = title
         self.trailer_youtube_url = trailer_url
         self.poster_image_url = poster_url
